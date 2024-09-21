@@ -503,6 +503,7 @@ footer {
     }
     .service .ul{
         margin-left: -5px;
+        font-size:10px;
     }
     #contact label{
         font-size: 25px;
