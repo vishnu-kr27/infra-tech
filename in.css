@@ -483,10 +483,12 @@ footer {
     #contact h2 {
         font-size: 30px;
     }
-
+    #services{
+          border:solid 10px rgb(238, 0, 218);
     
      .my-services {
         font-size: 30px;
+         bo
     }
 
     .service {
