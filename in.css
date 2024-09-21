@@ -476,8 +476,8 @@ footer {
         font-size: 30px;
     }
 
-    #about  {
-        fomnt-size:20px;
+   #about .about-text}
+        font-size: 10px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
