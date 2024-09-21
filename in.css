@@ -484,7 +484,7 @@ footer {
 
     
      .my-services {
-        font-size: 10px;
+        font-size: 25px;
     }
 
     .service {
@@ -493,17 +493,17 @@ footer {
     }
 
     .service h3 {
-        font-size: 15px; 
+        font-size: 20px; 
         margin-left: 01px;
     }
 
     .service p {
-        font-size: 10px; 
+        font-size: 15px; 
         margin-left: 0px;
     }
     .service .ul{
         margin-left: -5px;
-        font-size:10px;
+        font-size:13px;
     }
     #contact label{
         font-size: 25px;
