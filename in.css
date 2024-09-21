@@ -477,7 +477,7 @@ footer {
     }
 
    #about .about-text {
-        font-size: 20px;
+        font-size: 25px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
        color:black;
     }
@@ -491,7 +491,7 @@ footer {
     }
     
     #services {
-          border:solid 5px rgb(238, 0, 218);
+          border:solid 2px rgb(238, 0, 218);
         border-radious:10px;
     }
     
@@ -521,7 +521,12 @@ footer {
     #contact label{
         font-size: 25px;
     }
+    
+    #contact{
+     border:solid 2px rgb(238, 0, 218);
+    }
 
+    
     .nav-link{
         font-size: 20px;
     }
