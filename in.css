@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+
+nav {
+    background: rgba(87, 113, 230, 0.911);
+    color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background 0.3s ease;
+}
+
+nav.scrolled {
+    background: #000;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #1100ff;
+    width: 0;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+.nav-link{
+    font-size: 20px;
+}
+
+
+#home {
+    background: linear-gradient(to bottom, rgba(10, 31, 221, 0.74), rgba(255, 255, 255, 0.562)) ;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#home h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    line-height: 1.2;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#home .infratech {
+    font-family: Ethnocentric;
+    font-size: 80px;
+    color: #0004ff;
+    font-weight: 900;
+}
+.stronginfra{
+    font-family: Ethnocentric;
+    font-size: 25px;
+    color: #0004ff;
+}
+.text h1{
+    color: #0c0b0b;
+}
+.slogen {
+    font-size: 27px;
+    max-width: 700px;
+    color: black;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 20px;
+}
+
+
+#about {
+    padding: 80px 20px;
+    background: #fff;
+    text-align: center;
+    
+}
+
+#about h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: #1f1d1d;
+    animation: fadeInUp 1s ease-in-out;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#about .about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.6;
+    color: #292828;
+    animation: fadeInUp 1.5s ease-in-out;
+    border:solid 2px rgb(238, 0, 218);
+    border-radius: 10px;
+}
+
+
+#services {
+    background: #e9d7d7;
+    padding: 80px 20px;
+    border-radius: 0px;
+    border:solid 2px rgb(238, 0, 218);
+}
+
+.my-services {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 20px; /* Added gap for spacing */
+/* } */ */ */
+
+.service {
+    width:100% ;
+    background-color: #218838; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    background-color: #1ed4cb93;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(163, 123, 123, 0.2);
+    border-radius: 15px;
+    border:solid 2px rgb(238, 0, 218);
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-left:105px;
+}
+
+.service p {
+    font-size: 19px;
+    color: #0c0b0b;
+    line-height: 1.6;
+  margin-left: 50px;
+}
+
+.ul{
+    margin-left:100px;
+    font-size: 24px;
+  
+}
+
+   
+
+
+
+#contact {
+    background: rgba(55, 66, 216, 0.74);
+    padding: 80px 20px;
+    color: #fff;
+    text-align: center;
+    border:solid 2px rgb(238, 0, 218);
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contact form {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact label {
+    font-size: 30px;
+    margin-bottom: 8px;
+    display: block;
+    color: #000000;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact textarea {
+    height: 150px;
+}
+
+#contact button {
+    background-color: #004ff8;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
+   
+}
+
+#contact button:hover {
+    background-color: #08fd3d;
+    color: #e9ecef;
+   
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px; 
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s; 
+}
+
+.social-icons a:hover {
+    background: rgba(0, 243, 61, 0.4); 
+    transform: scale(1.1); 
+    border: solid rgb(9, 255, 0);
+}
+
+.social-icons i {
+    color: #fff; 
+    font-size: 24px; 
+    
+}
+.social-icons .fa-instagram:hover {
+    /* background: linear-gradient(#f9ce34, #ee2a7b, #6228d7); */
+    /* border: solid 2px linear-gradient(#f9ce34, #ee2a7b, #6228d7); */
+    border-radius: 5px; /* Adjust as needed */
+    background: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+}
+ 
+  
+
+  .social-icons  .instagram:hover  {
+    border: solid ;
+    background: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+}
+.fa-solid {
+   font-size: 35px;
+}
+  
+
+@media (max-width: 600px) {
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .social-icons i {
+        font-size: 20px;
+    }
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    height: 100%;
+}
+.fa-brands {
+    color: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+   font-size: 30px;
+   margin: 0 10px; 
+   
+}
+.fa-whatsapp{
+    color: #218838;
+
+    margin: 0 10px; 
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+   
+    .nav-link {
+        font-size: 14px;
+    }
+
+    #home h1 {
+        font-size: 36px;
+    }
+
+    #home .infratech {
+        font-size: 70px;
+    }
+
+    #home .slogen {
+        font-size: 30px;
+    }
+
+    #about h2 {
+        font-size: 60px;
+    }
+    #about .about-text {
+        font-size:30px ;
+    }
+    .my-services {
+        font-size: 50px;
+    }
+
+    #contact h2 {
+        font-size: 60px;
+    }
+    #contact label{
+        font-size: 25px;
+    }
+
+    .service {
+        max-width: 100%; 
+    }
+    .service h3 {
+        font-size: 30px; 
+        margin-left: 0px;
+    }
+
+    .service p {
+        font-size: 25px; 
+        margin-left: 0px;
+    }
+    .service .ul{
+        font-size: 29px; 
+        margin-left: 0px;
+    
+}
+
+@media (max-width: 480px) {
+    nav {
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .imgage{
+        justify-content: center;
+        align-content: center;
+        margin-top: 10px;
+    }
+    
+
+    .navbar-menu {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+    }
+
+    #home h1 {
+        font-size: 28px;
+        /* margin-top: 30px; */
+    }
+
+    #home .infratech {
+        font-size: 50px;
+    }
+
+    #home .slogen {
+        font-size: 30px;
+    }
+
+    #about h2 {
+        font-size: 60px;
+    }
+
+    .my-services {
+        font-size: 30px;
+    }
+
+    #contact h2 {
+        font-size: 30px;
+    }
+
+    
+     .my-services {
+        font-size: 30px;
+    }
+
+    .service {
+        max-width: 100%; 
+        padding: 15px; 
+    }
+
+    .service h3 {
+        font-size: 30px; 
+        margin-left: 01px;
+    }
+
+    .service p {
+        font-size: 25px; 
+        margin-left: 0px;
+    }
+    .service .ul{
+        margin-left: -5px;
+    }
+    #contact label{
+        font-size: 25px;
+    }
+
+    .nav-link{
+        font-size: 20px;
+    }
+    
+} 
+}
