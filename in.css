@@ -483,11 +483,13 @@ footer {
     #contact h2 {
         font-size: 30px;
     }
-    #services{
+    
+    #services {
           border:solid 10px rgb(238, 0, 218);
     }
+    
      .my-services {
-        font-size: 25px;
+        font-size: 10px;
         
     }
 
@@ -498,7 +500,7 @@ footer {
 
     .service h3 {
         font-size: 21px; 
-        margin-left: 01px;
+        margin-left: 0px;
     }
 
     .service p {
