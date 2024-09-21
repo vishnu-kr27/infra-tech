@@ -473,7 +473,11 @@ footer {
     }
 
     #about h2 {
-        font-size: 60px;
+        font-size: 10px;
+    }
+
+    #about .about-text {
+        fomnt-size:10px
     }
 
     .my-services {
