@@ -489,7 +489,8 @@ footer {
     }
     
     #services {
-          border:solid 10px rgb(238, 0, 218);
+          border:solid 5px rgb(238, 0, 218);
+        border-radious:2px;
     }
     
      .my-services {
