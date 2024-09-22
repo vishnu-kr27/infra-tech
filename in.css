@@ -214,7 +214,7 @@ nav.scrolled {
 
 
 #contact {
-    background: rgba(55, 66, 216, 0.74);
+    background: #797bf2;
     padding: 80px 20px;
     color: #F5F5F5;
     text-align: center;
@@ -525,9 +525,9 @@ footer {
     #contact{
      border:solid 2px rgb(238, 0, 218);
     }
-   .social-icons .fa-instagram {
-       margin-top:1px;
-   }
+  
+    
+
     
     .nav-link{
         font-size: 20px;
