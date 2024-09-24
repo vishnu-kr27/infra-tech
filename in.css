@@ -186,7 +186,7 @@ nav.scrolled {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(163, 123, 123, 0.2);
     border-radius: 15px;
-    border:solid 2px rgb(238, 0, 218);
+    border:solid 2px #0018f5;
 }
 
 .service h3 {
