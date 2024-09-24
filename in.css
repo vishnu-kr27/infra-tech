@@ -101,7 +101,7 @@ nav.scrolled {
     font-weight: 900;
 }
 .stronginfra{
-    font-family: Ethnocentric Regular;
+    font-family: Ethnocentric ;
     font-size: 25px;
     color: #0004ff;
 }
@@ -463,6 +463,7 @@ footer {
     }
     .stronginfra{
     font-family: Ethnocentric;
+    font-size: 30px;
     }
     #home .infratech {
         font-size: 50px;
