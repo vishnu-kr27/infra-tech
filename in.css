@@ -182,7 +182,7 @@ nav.scrolled {
 }
 
 .service:hover {
-    background-color: #1ed4cb93;
+/*     background-color: #1ed4cb93; */
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(163, 123, 123, 0.2);
     border-radius: 15px;
